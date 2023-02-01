@@ -59,3 +59,27 @@ span {
 .container-2 iframe{
   width: 100%;
 }
+
+
+
+
+/* DESKTOP FIRST pavyzdys */
+
+@media screen and (max-width: 999px) {
+  .all-shops{
+    width:60%
+  }
+
+  .container-2 {
+    width: 40%;
+  }
+
+  .shop{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+}
+@media screen and (max-width: 299px) {
+}
